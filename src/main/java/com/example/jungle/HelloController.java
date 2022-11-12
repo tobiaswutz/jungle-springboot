@@ -11,4 +11,9 @@ public class HelloController {
         return "Greetings from Spring Boot! ok ok ok ok ok";
     }
 
+    @GetMapping("/customers")
+    public String customers() {
+        return "Customers from Spring Boot! ok ok ok ok ok";
+    }
+
 }
